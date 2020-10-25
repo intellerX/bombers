@@ -17,7 +17,7 @@ const Home = ({ trends }) => {
   return (
     <div className='home'>
 
-      <h1 className='title'>Cuerpo de Bomberos Voluntarios Anserma Nuevo</h1>
+      <h1 className='title'>Cuerpo de Bomberos Voluntarios Ansermanuevo</h1>
 
       <img className='image1' id='Image1' data-type='image' src="https://images.pexels.com/photos/1588067/pexels-photo-1588067.jpeg?cs=srgb&dl=pexels-craig-adderley-1588067.jpg&fm=jpg" alt='Imagen Principal' />
 
