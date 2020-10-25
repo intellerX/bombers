@@ -27,7 +27,7 @@ const Header = (props) => {
 
   return (
     <>
-        <hr class="side"/>
+        <hr className="side"/>
         <header className='header'>
 
 

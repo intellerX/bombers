@@ -4,36 +4,50 @@ import { connect } from 'react-redux';
 import Categories from '../components/Categories';
 import Carousel from '../components/Carousel';
 import CarouselItem from '../components/CarouselItem';
+import {  Container, Card, Button, Row } from 'react-bootstrap';
 
 const Services = ({ trends }) => {
   return (
     <div className='Services'>
 
-      <Categories title='Productos'>
-        <Carousel className='carousel'>
-          {trends.map(item => (
-            <CarouselItem key={item.id} {...item} />
-          ))}
-        </Carousel>
-      </Categories>
+      <Container>
 
-      <iframe
-        title='BioSeC19'
-        width='560'
-        height='315'
-        src='https://www.youtube.com/embed/F4ovuRFURiU?rel=0;autoplay=1'
-        frameBorder='0'
-        allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-        allowFullScreen
-      />
+        <Row className="justify-content-md-center">
+          <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src="https://images.pexels.com/photos/681467/pexels-photo-681467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+            <Card.Body>
+              <Card.Title>Llenado de Extintores</Card.Title>
+              <Card.Text>
+                Servicio de recarga de extintor.
+    </Card.Text>
+              <Button variant="primary">ver más</Button>
+            </Card.Body>
+          </Card>
 
-      <Categories title='Productos'>
-        <Carousel className='carousel'>
-          {trends.map(item => (
-            <CarouselItem key={item.id} {...item} />
-          ))}
-        </Carousel>
-      </Categories>
+          <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src="https://images.pexels.com/photos/681467/pexels-photo-681467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+            <Card.Body>
+              <Card.Title>Cursos</Card.Title>
+              <Card.Text>
+                Cursos de prevención y seguridad.
+    </Card.Text>
+              <Button variant="primary">ver más</Button>
+            </Card.Body>
+          </Card>
+
+          <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src="https://images.pexels.com/photos/681467/pexels-photo-681467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+            <Card.Body>
+              <Card.Title>Servicio</Card.Title>
+              <Card.Text>
+                Servicio de ejemplo con descripción.
+    </Card.Text>
+              <Button variant="primary">ver más</Button>
+            </Card.Body>
+          </Card>
+
+        </Row>
+      </Container>
 
     </div>
 
