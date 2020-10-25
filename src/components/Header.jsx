@@ -8,7 +8,7 @@ import userIcon from '../assets/static/sonajero.png';
 import gravatar from '../utils/gravatar.js';
 import { logoutRequest } from '../actions';
 
-import { Navbar,Nav,Form,FormControl,Button ,NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, Form, FormControl, Button, NavDropdown } from 'react-bootstrap';
 
 const Header = (props) => {
 
@@ -26,29 +26,38 @@ const Header = (props) => {
   };
 
   return (
-    <header className='header'>
+    <>
+        <hr class="side"/>
+        <header className='header'>
 
-      <Link to='/'>
-        <img className='header__img' src={logo} alt='Logo La Casita de Magy' />
-      </Link>
 
-    <Navbar bg="light" >
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Nav className="mr-auto">
-          <Nav.Link href="/">Inicio</Nav.Link>
-          <Nav.Link href="/servicios">Servicios</Nav.Link>
-          <NavDropdown title="Ley de Transparencia" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/Ley">Action</NavDropdown.Item>
-            <NavDropdown.Item href="/Articulo">Another action</NavDropdown.Item>
-            <NavDropdown.Item href="/Objetivo">Something</NavDropdown.Item>
-            
-          </NavDropdown>
-        </Nav>      
-        
-      
-    </Navbar>
+        <Link to='/'>
+          <img className='header__img' src={logo} alt='Logo ' />
+        </Link>
 
-    <div className='header__menu'>
+        <Navbar bg="light" >
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Nav className="mr-auto">
+            <Nav.Link href="/">Inicio</Nav.Link>
+            <Nav.Link href="/servicios">Servicios</Nav.Link>
+            <NavDropdown title="Ley de Transparencia" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/transparencia">1. Mecanismos de contacto</NavDropdown.Item>
+              <NavDropdown.Item href="/transparencia">2. Información de Interés</NavDropdown.Item>
+              <NavDropdown.Item href="/transparencia">3. Estructura orgánica y talento humano</NavDropdown.Item>
+              <NavDropdown.Item href="/transparencia">4. Normatividad</NavDropdown.Item>
+              <NavDropdown.Item href="/transparencia">5. Presupuesto</NavDropdown.Item>
+              <NavDropdown.Item href="/transparencia">6. Planeación</NavDropdown.Item>
+              <NavDropdown.Item href="/transparencia">7. Control</NavDropdown.Item>
+              <NavDropdown.Item href="/transparencia">8. Contratación</NavDropdown.Item>
+              <NavDropdown.Item href="/transparencia">9. Instrumentos de gestión de información pública</NavDropdown.Item>
+
+            </NavDropdown>
+          </Nav>
+
+
+        </Navbar>
+
+        <div className='header__menu'>
           <div className='header__menu--profile'>
             {hasUser ?
               (<img src={gravatar(user.email)} alt={user.email} />) :
@@ -63,14 +72,16 @@ const Header = (props) => {
             }
             {hasUser ?
               <li><a href='/logout' onClick={handleLogout}>Cerrar Sesión</a></li> :
-              <li><a href='/login'>Iniciar Sesión</a></li>
+              <li><a href='https://apex-a421278.db.us2.oraclecloudapps.com/apex/f?p=30100027:LOGIN_DESKTOP:114980652091371:::::'>Iniciar Sesión</a></li>
             }
           </ul>
         </div>
 
-      
 
-    </header>
+
+      </header>
+      
+    </>
 
   );
 };

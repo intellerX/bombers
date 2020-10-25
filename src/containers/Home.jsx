@@ -37,9 +37,9 @@ const Home = ({ trends }) => {
           <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src="https://images.pexels.com/photos/681467/pexels-photo-681467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
             <Card.Body>
-              <Card.Title>Servicio</Card.Title>
+              <Card.Title>Llenado de Extintores</Card.Title>
               <Card.Text>
-                Servicio de ejemplo con descripción.
+                Servicio de recarga de extintor.
             </Card.Text>
               <Button variant="primary">ver más</Button>
             </Card.Body>
@@ -48,9 +48,9 @@ const Home = ({ trends }) => {
           <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src="https://images.pexels.com/photos/681467/pexels-photo-681467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
             <Card.Body>
-              <Card.Title>Servicio</Card.Title>
+              <Card.Title>Cursos</Card.Title>
               <Card.Text>
-                Servicio de ejemplo con descripción.
+                Cursos de prevención y seguridad.
             </Card.Text>
               <Button variant="primary">ver más</Button>
             </Card.Body>

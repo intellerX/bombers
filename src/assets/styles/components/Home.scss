@@ -10,6 +10,8 @@
 }
 
 
+
+
 .title {
   font-size: 30px;
   text-align: center;
@@ -51,7 +53,7 @@
   margin-bottom:100px
 }
 .panel1 {
-  background-color: #91aabe;
+  background-color: #e03232;
   width: 50%;
   height: 100%;
   margin-right: 15px;
@@ -91,12 +93,13 @@
 
 .panel__aliados{
   display: inline;
-  height: 200px;
+  height: 300px;
 }
 
 .panel__aliados--logo{
-  height: 50px;
+  height: 100px;
   margin-left: 50px;
+  margin-top: 20px;
 }
 
 

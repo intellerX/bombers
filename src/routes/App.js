@@ -19,7 +19,7 @@ const App = () => (
         <Route exact path='/register' component={Register} />
         <Route exact path='/player/:id' component={Player} />
         <Route exact path='/servicios' component={Services} />
-        <Route exact path='/contacto' component={Contact} />
+        <Route exact path='/transparencia' component={Contact} />
 
         <Route component={NotFound} />
       </Switch>
