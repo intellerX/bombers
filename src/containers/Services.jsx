@@ -1,10 +1,12 @@
 import React from 'react';
 import '../assets/styles/components/Services.scss';
 import { connect } from 'react-redux';
-import Categories from '../components/Categories';
-import Carousel from '../components/Carousel';
-import CarouselItem from '../components/CarouselItem';
-import {  Container, Card, Button, Row } from 'react-bootstrap';
+import ImageCars from '../assets/static/Cars.jpg';
+import ImageGeneral from '../assets/static/services3.jpg';
+import ImageExtintores from '../assets/static/services4.jpg';
+import ImageCursos from '../assets/static/Curso.jpg';
+import ImageOther from '../assets/static/servicios.jpg';
+import { Container, Card, Button, Row } from 'react-bootstrap';
 
 const Services = ({ trends }) => {
   return (
@@ -14,7 +16,7 @@ const Services = ({ trends }) => {
 
         <Row className="justify-content-md-center">
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="https://images.pexels.com/photos/681467/pexels-photo-681467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+            <Card.Img variant="top" src={ImageOther} />
             <Card.Body>
               <Card.Title>Llenado de Extintores</Card.Title>
               <Card.Text>
@@ -25,7 +27,7 @@ const Services = ({ trends }) => {
           </Card>
 
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="https://images.pexels.com/photos/681467/pexels-photo-681467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+            <Card.Img variant="top" src={ImageCursos} />
             <Card.Body>
               <Card.Title>Cursos</Card.Title>
               <Card.Text>
@@ -36,7 +38,7 @@ const Services = ({ trends }) => {
           </Card>
 
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="https://images.pexels.com/photos/681467/pexels-photo-681467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+            <Card.Img variant="top" src={ImageExtintores} />
             <Card.Body>
               <Card.Title>Servicio</Card.Title>
               <Card.Text>

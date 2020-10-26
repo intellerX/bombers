@@ -8,7 +8,7 @@ import userIcon from '../assets/static/sonajero.png';
 import gravatar from '../utils/gravatar.js';
 import { logoutRequest } from '../actions';
 
-import { Navbar, Nav, Form, FormControl, Button, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav,  NavDropdown } from 'react-bootstrap';
 
 const Header = (props) => {
 

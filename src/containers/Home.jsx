@@ -1,9 +1,13 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Jumbotron, Container, Card, Button, Row } from 'react-bootstrap';
-import Categories from '../components/Categories';
-import Carousel from '../components/Carousel';
-import CarouselItem from '../components/CarouselItem';
+import ImagePrincipal from '../assets/static/curso2.jpg';
+
+import ImageCars from '../assets/static/Cars.jpg';
+import ImageGeneral from '../assets/static/services3.jpg';
+import ImageExtintores from '../assets/static/services4.jpg';
+import ImageCursos from '../assets/static/Curso.jpg';
+import ImageOther from '../assets/static/servicios.jpg';
 import LogoPolicia from '../assets/static/policia.png';
 import LogoDC from '../assets/static/logoDC.png';
 import LogoCR from '../assets/static/logoCR.jpg';
@@ -19,7 +23,7 @@ const Home = ({ trends }) => {
 
       <h1 className='title'>Cuerpo de Bomberos Voluntarios Ansermanuevo</h1>
 
-      <img className='image1' id='Image1' data-type='image' src="https://images.pexels.com/photos/1588067/pexels-photo-1588067.jpeg?cs=srgb&dl=pexels-craig-adderley-1588067.jpg&fm=jpg" alt='Imagen Principal' />
+      <img className='image1' id='Image1' data-type='image' src={ImagePrincipal} alt='Imagen Principal' />
 
       <Jumbotron fluid>
         <Container>
@@ -35,7 +39,7 @@ const Home = ({ trends }) => {
 
         <Row className="justify-content-md-center">
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="https://images.pexels.com/photos/681467/pexels-photo-681467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+            <Card.Img variant="top" src={ImageOther} />
             <Card.Body>
               <Card.Title>Llenado de Extintores</Card.Title>
               <Card.Text>
@@ -46,7 +50,7 @@ const Home = ({ trends }) => {
           </Card>
 
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="https://images.pexels.com/photos/681467/pexels-photo-681467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+            <Card.Img variant="top" src={ImageCursos} />
             <Card.Body>
               <Card.Title>Cursos</Card.Title>
               <Card.Text>
@@ -57,7 +61,7 @@ const Home = ({ trends }) => {
           </Card>
 
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="https://images.pexels.com/photos/681467/pexels-photo-681467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+            <Card.Img variant="top" src={ImageExtintores}/>
             <Card.Body>
               <Card.Title>Servicio</Card.Title>
               <Card.Text>
@@ -83,7 +87,7 @@ const Home = ({ trends }) => {
         </div>
 
         <div className='panel2'>
-          <img className='panel2__image2' id='Image2' data-type='image' src="https://images.pexels.com/photos/4212623/pexels-photo-4212623.jpeg?cs=srgb&dl=pexels-luigi-alvarez-4212623.jpg&fm=jpg" alt='Logo' />
+          <img className='panel2__image2' id='Image2' data-type='image' src={ImageGeneral} alt='Logo' />
         </div>
 
       </div>
@@ -102,7 +106,7 @@ const Home = ({ trends }) => {
         </div>
 
         <div className='panel2'>
-          <img className='panel2__image2' id='Image2' data-type='image' src="https://images.pexels.com/photos/3773291/pexels-photo-3773291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt='img2' />
+          <img className='panel2__image2' id='Image2' data-type='image' src={ImageCars} alt='img2' />
         </div>
       </div>
 

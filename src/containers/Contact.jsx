@@ -1,12 +1,16 @@
 import React from 'react';
 import '../assets/styles/components/Contact.scss';
 import { Accordion, Card, Button } from 'react-bootstrap';
+import ImagePrincipal from '../assets/static/services2.jpg';
+
 
 const Contact = () => {
 
   return (
 
     <>
+      <img className='imageLaw' id='Image1' data-type='image' src={ImagePrincipal} alt='Imagen Principal' />
+
       <Accordion defaultActiveKey="0">
         <Card>
           <Card.Header>
