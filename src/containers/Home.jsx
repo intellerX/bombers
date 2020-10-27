@@ -12,14 +12,14 @@ import LogoPolicia from '../assets/static/policia.png';
 import LogoDC from '../assets/static/logoDC.png';
 import LogoCR from '../assets/static/logoCR.jpg';
 
-import '../assets/styles/components/Home.scss';
+import '../assets/styles/components/Home.scss'; 
 
 import '../assets/styles/App.scss';
 
 const Home = ({ trends }) => {
   // const initialState = useInitialState(API);
   return (
-    <div className='home'>
+    <div className='home'> 
 
       <h1 className='title'>Cuerpo de Bomberos Voluntarios Ansermanuevo</h1>
 
