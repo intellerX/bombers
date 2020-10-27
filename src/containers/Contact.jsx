@@ -3,10 +3,10 @@ import '../assets/styles/components/Contact.scss';
 import { Accordion, Card, Button } from 'react-bootstrap';
 import ImagePrincipal from '../assets/static/services2.jpg';
 import ImageEstructura from '../assets/static/consejo.jpg';
-import Mision from '../assets/static/ORGANIGRAMA.jpg';
-import Vision from '../assets/static/ORGANIGRAMA.jpg';
+import Mision from '../assets/static/mision.jpg';
+import Vision from '../assets/static/vision.jpg';
 import Organigrama from '../assets/static/ORGANIGRAMA.jpg';
-import Politica from '../assets/static/ORGANIGRAMA.jpg';
+import Politica from '../assets/static/politica.jpg';
 
 
 const Contact = () => {
