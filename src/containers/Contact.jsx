@@ -2,6 +2,11 @@ import React from 'react';
 import '../assets/styles/components/Contact.scss';
 import { Accordion, Card, Button } from 'react-bootstrap';
 import ImagePrincipal from '../assets/static/services2.jpg';
+import ImageEstructura from '../assets/static/consejo.jpg';
+import Mision from '../assets/static/MISION.jpg';
+import Vision from '../assets/static/VISION.jpg';
+import Organigrama from '../assets/static/ORGANIGRAMA.jpg';
+import Politica from '../assets/static/POLITICA.jpg';
 
 
 const Contact = () => {
@@ -20,10 +25,10 @@ const Contact = () => {
           </Card.Header>
           <Accordion.Collapse eventKey="0">
             <Card.Body>
-              Dirección: Cl. 6 #25, Ansermanuevo, Puerto Rondón, Arauca <br />
+              Dirección: Cra 3 # 7-40, Ansermanuevo, centro <br />
               Teléfono: +57 3158231406 <br />
               Linea Gratuita: Linea de Emergencia 123 <br />
-              Correo electrónico: info@bomber.gov.co <br />
+              Correo electrónico: bomberosansermanuevo@gmail.com <br />
               Horario de Atención: Lunes a Viernes: 7:00 a.m - 4:30 p.m. <br />
               Departamento: Valle Del Cauca <br />
               Ciudad: Ansermanuevo - Colombia <br />
@@ -39,7 +44,10 @@ const Contact = () => {
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="1">
-            <Card.Body>Incidentes atendidos</Card.Body>
+            <Card.Body>
+              <img className='imageLaw' id='Image1' data-type='image' src={Politica} alt='Politica' />
+
+            </Card.Body>
           </Accordion.Collapse>
         </Card>
 
@@ -47,14 +55,18 @@ const Contact = () => {
           <Card.Header>
             <Accordion.Toggle as={Button} variant="link" eventKey="2">
               3. Estructura orgánica y talento humano
+
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="2">
-            <Card.Body> <strong>Misión</strong>  <br/>
-              Proteger la vida, el ambiente y el patrimonio, a través de la gestión integral de riesgos de incendios, atención de rescates en todas sus modalidades e incidentes con materiales peligrosos en Bogotá y su entorno.
 
-              <br/> <strong>Visión</strong>  <br/>
-              Al 2030, ser el mejor cuerpo de bomberos de Colombia soportado en el compromiso de sus colaboradores y la confianza de los ciudadanos, reconocido a nivel mundial por su fortaleza técnica y capacidad de gestión.</Card.Body>
+            <Card.Body>
+              <img className='imageLaw' id='Image1' data-type='image' src={Organigrama} alt='Organigrama' />
+              <img className='imageLaw' id='Image1' data-type='image' src={ImageEstructura} alt='Estructura' />
+              <img className='imageLaw' id='Image1' data-type='image' src={Mision} alt='Mision' />
+              <img className='imageLaw' id='Image1' data-type='image' src={Vision} alt='Vision' />
+
+            </Card.Body>
           </Accordion.Collapse>
         </Card>
       </Accordion>

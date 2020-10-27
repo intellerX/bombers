@@ -12,7 +12,12 @@
   font-size: 5px;
 
 }
-
+hr.side { border: solid rgb(255, 37, 37);
+  border-width: 10px 0 0;
+  clear: both; margin-top: 0;
+  height: 0;
+  margin-bottom: 0;
+}
 .footer a {
   color: black;
   cursor: pointer;
