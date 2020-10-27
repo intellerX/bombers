@@ -3,8 +3,8 @@ import '../assets/styles/components/Contact.scss';
 import { Accordion, Card, Button } from 'react-bootstrap';
 import ImagePrincipal from '../assets/static/services2.jpg';
 import ImageEstructura from '../assets/static/consejo.jpg';
-import Mision from '../assets/static/Mision.jpg';
-import Vision from '../assets/static/Vision.jpg';
+import Mision from '../assets/static/Misions.jpg';
+import Vision from '../assets/static/Visions.jpg';
 import Organigrama from '../assets/static/ORGANIGRAMA.jpg';
 import Politica from '../assets/static/Politics.jpg';
 
