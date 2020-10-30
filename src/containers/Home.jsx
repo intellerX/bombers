@@ -12,14 +12,14 @@ import LogoPolicia from '../assets/static/policia.png';
 import LogoDC from '../assets/static/logoDC.png';
 import LogoCR from '../assets/static/logoCR.jpg';
 
-import '../assets/styles/components/Home.scss'; 
+import '../assets/styles/components/Home.scss';
 
 import '../assets/styles/App.scss';
 
 const Home = ({ trends }) => {
   // const initialState = useInitialState(API);
   return (
-    <div className='home'> 
+    <div className='home'>
 
       <h1 className='title'>Cuerpo de Bomberos Voluntarios Ansermanuevo</h1>
 
@@ -41,9 +41,9 @@ const Home = ({ trends }) => {
           <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={ImageOther} />
             <Card.Body>
-              <Card.Title>Llenado de Extintores</Card.Title>
+              <Card.Title>Diagnósticos de seguridad</Card.Title>
               <Card.Text>
-                Servicio de recarga de extintor.
+                Visitas de seguridad bomberil a los establecimientos de industria y comercio para verificar la seguridad humana.
             </Card.Text>
               <Button variant="primary">ver más</Button>
             </Card.Body>
@@ -52,20 +52,24 @@ const Home = ({ trends }) => {
           <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={ImageCursos} />
             <Card.Body>
-              <Card.Title>Cursos</Card.Title>
+              <Card.Title>Capacitaciones</Card.Title>
               <Card.Text>
-                Cursos de prevención y seguridad.
-            </Card.Text>
+                Servicios de capacitación en temas como manejo seguro de extintores y
+                atención prehospitalaria
+              </Card.Text>
               <Button variant="primary">ver más</Button>
             </Card.Body>
           </Card>
 
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={ImageExtintores}/>
+            <Card.Img variant="top" src={ImageExtintores} />
             <Card.Body>
-              <Card.Title>Servicio</Card.Title>
+              <Card.Title>Servicios</Card.Title>
               <Card.Text>
-                Servicio de ejemplo con descripción.
+                -Soporte básico de vida <br/>
+                -Incendios forestales <br/>
+                -Clase de incendios <br/>
+                -Comunicaciones integradas <br/>
             </Card.Text>
               <Button variant="primary">ver más</Button>
             </Card.Body>

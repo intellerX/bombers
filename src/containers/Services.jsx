@@ -14,41 +14,45 @@ const Services = ({ trends }) => {
 
       <Container>
 
-        <Row className="justify-content-md-center">
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={ImageOther} />
-            <Card.Body>
-              <Card.Title>Llenado de Extintores</Card.Title>
-              <Card.Text>
-                Servicio de recarga de extintor.
-    </Card.Text>
-              <Button variant="primary">ver más</Button>
-            </Card.Body>
-          </Card>
+      <Row className="justify-content-md-center">
+        <Card style={{ width: '18rem' }}>
+          <Card.Img variant="top" src={ImageOther} />
+          <Card.Body>
+            <Card.Title>Diagnósticos de seguridad</Card.Title>
+            <Card.Text>
+              Visitas de seguridad bomberil a los establecimientos de industria y comercio para verificar la seguridad humana.
+          </Card.Text>
+            <Button variant="primary">ver más</Button>
+          </Card.Body>
+        </Card>
 
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={ImageCursos} />
-            <Card.Body>
-              <Card.Title>Cursos</Card.Title>
-              <Card.Text>
-                Cursos de prevención y seguridad.
-    </Card.Text>
-              <Button variant="primary">ver más</Button>
-            </Card.Body>
-          </Card>
+        <Card style={{ width: '18rem' }}>
+          <Card.Img variant="top" src={ImageCursos} />
+          <Card.Body>
+            <Card.Title>Capacitaciones</Card.Title>
+            <Card.Text>
+              Servicios de capacitación en temas como manejo seguro de extintores y
+              atención prehospitalaria
+            </Card.Text>
+            <Button variant="primary">ver más</Button>
+          </Card.Body>
+        </Card>
 
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={ImageExtintores} />
-            <Card.Body>
-              <Card.Title>Servicio</Card.Title>
-              <Card.Text>
-                Servicio de ejemplo con descripción.
-    </Card.Text>
-              <Button variant="primary">ver más</Button>
-            </Card.Body>
-          </Card>
+        <Card style={{ width: '18rem' }}>
+          <Card.Img variant="top" src={ImageExtintores} />
+          <Card.Body>
+            <Card.Title>Servicios</Card.Title>
+            <Card.Text>
+              -Soporte básico de vida <br/>
+              -Incendios forestales <br/>
+              -Clase de incendios <br/>
+              -Comunicaciones integradas <br/>
+          </Card.Text>
+            <Button variant="primary">ver más</Button>
+          </Card.Body>
+        </Card>
 
-        </Row>
+      </Row>
       </Container>
 
     </div>
