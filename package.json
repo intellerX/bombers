@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development "
-
   },
   "keywords": [],
   "author": "",
@@ -29,6 +28,7 @@
     "react": "^16.8.6",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^16.8.6",
+    "react-native-webview": "^11.0.0",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.2.0",
     "redux": "^4.0.5",

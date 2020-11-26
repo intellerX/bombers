@@ -69,6 +69,103 @@ const Contact = () => {
             </Card.Body>
           </Accordion.Collapse>
         </Card>
+
+        <Card>
+          <Card.Header>
+            <Accordion.Toggle as={Button} variant="link" eventKey="3">
+              4. Normatividad
+
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="3">
+
+            <Card.Body>
+              <a href="https://drive.google.com/file/d/1dnDhcq9Z48zIRXzqeSi74vex8LlF16y0/view?usp=sharing">
+              Ver Documento 📋 </a>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+
+        <Card>
+          <Card.Header>
+            <Accordion.Toggle as={Button} variant="link" eventKey="4">
+              5. Presupuesto
+
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="4">
+
+            <Card.Body>
+              <a href="https://drive.google.com/file/d/10lpv2lWUQAM_1YhNW2Sne-Km7pUYGYwp/view?usp=sharing">
+              Ver Documento 📋 </a>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+
+        <Card>
+          <Card.Header>
+            <Accordion.Toggle as={Button} variant="link" eventKey="5">
+              6. Planeación
+
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="5">
+
+            <Card.Body>
+              <a href="https://drive.google.com/file/d/1drFwBVq3soFCyzFlrSZFoY9dg2x0xFOc/view?usp=sharing">
+              Ver Documento 📋 </a>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+
+        <Card>
+          <Card.Header>
+            <Accordion.Toggle as={Button} variant="link" eventKey="6">
+              7. Control
+
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="6">
+
+            <Card.Body>
+              <a href="https://drive.google.com/file/d/1HdS1XDN4koARzSxHRGi9wmNHooy_IfjQ/view?usp=sharing">
+              Ver Documento 📋 </a>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+
+        <Card>
+          <Card.Header>
+            <Accordion.Toggle as={Button} variant="link" eventKey="7">
+              8. Contratación
+
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="7">
+
+            <Card.Body>
+              <a href="https://drive.google.com/file/d/1J6ym4iJHCXGBj74meQpOYhQoyDuH2OCd/view?usp=sharing">
+              Ver Documento 📋 </a>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+
+        <Card>
+          <Card.Header>
+            <Accordion.Toggle as={Button} variant="link" eventKey="8">
+              9. Servicios
+
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="8">
+
+            <Card.Body>
+              <a href="/servicios">
+              Ir a Servicios 🚒</a>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+
       </Accordion>
 
     </>
